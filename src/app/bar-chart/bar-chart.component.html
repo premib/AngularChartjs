@@ -1,0 +1,20 @@
+<div class="d-flex mt-2 flex-column align-items-center">
+  <h2><strong>Bar Chart</strong></h2>
+  <h5>Comparing Man utd and Liverpool's points each year(2011-18)</h5>
+</div>
+<div class="container" style="width: 1080px; height: 1920x;margin-top:70px;">
+    <div class="d-flex">
+        <label for="stack">Stack</label>
+        <button (click)="stack(true)">Yes</button>
+        <button (click)="stack(false)">No</button>
+    </div>
+    <canvas baseChart
+      [datasets]="barChartData"
+      [labels]="barChartLabels"
+      [options]="barChartOptions"
+      [plugins]="barChartPlugins"
+      [legend]="barChartLegend"
+      [colors]="barChartColor"
+      [chartType]="barChartType">
+    </canvas>
+  </div>

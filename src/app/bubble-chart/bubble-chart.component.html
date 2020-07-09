@@ -1,0 +1,11 @@
+<div class="d-flex mt-2 flex-column align-items-center">
+    <h2><strong>Bubble Chart</strong></h2>
+    <h5>Points progress with goal difference</h5>
+  </div>
+<div class="container" style="width: 1080px; height: 1920x">
+    <canvas style="top:20px" baseChart
+        [datasets]="bubbleChartData"
+        [labels]="bubbleChartLabels"
+        [chartType]="bubbleChartType">
+      </canvas>
+  </div>

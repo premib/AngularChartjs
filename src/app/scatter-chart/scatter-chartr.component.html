@@ -1,0 +1,11 @@
+<div class="d-flex mt-2 flex-column align-items-center">
+    <h2><strong>Scatter Chart</strong></h2>
+    <h5>Points progress each year</h5>
+  </div>
+<div class="container" style="width: 1080px; height: 1920x">
+    <canvas baseChart 
+        [datasets]="scatterChartData"
+        [labels]="scatterChartLabels"
+        [chartType]="scatterChartType">
+    </canvas>
+  </div>

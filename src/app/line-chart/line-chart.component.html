@@ -1,0 +1,15 @@
+<div class="d-flex mt-2 flex-column align-items-center">
+  <h2><strong>Line Chart</strong></h2>
+  <h5>Comparing Man utd and Liverpool's points each year(2011-18)</h5>
+</div>
+<div class="container" style="width: 1080px; height: 1920x">
+    <canvas baseChart style="margin-top:70px;"
+      [datasets]="lineChartData"
+      [labels]="lineChartLabels"
+      [options]="lineChartOptions"
+      [plugins]="lineChartPlugins"
+      [legend]="lineChartLegend"
+      [colors]="lineChartColor"
+      [chartType]="lineChartType">
+    </canvas>
+  </div>

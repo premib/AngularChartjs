@@ -1,0 +1,6 @@
+#body{
+    background: aliceblue;
+}
+#body > ul,li{
+    background: #ccdadb;
+}

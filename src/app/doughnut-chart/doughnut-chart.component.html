@@ -1,0 +1,12 @@
+<div class="d-flex mt-2 flex-column align-items-center">
+  <h2><strong>Doughnut Chart</strong></h2>
+  <h5>Comparing Man utd and Liverpool's total points(2011-18)</h5>
+</div>
+<div class="container" style="width: 1080px; height: 1920x">
+    <canvas style="top:20px" baseChart 
+      [data]="doughnutChartData"
+      [labels]="doughnutChartLabels"
+      [colors]="doughnutChartColor"
+      [chartType]="doughnutChartType">
+    </canvas>
+  </div>

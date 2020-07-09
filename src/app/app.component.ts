@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { ChartDataSets,  ChartOptions } from "chart.js";
+import { Label, Color } from "ng2-charts";
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'AngularChartjs';
+ 
+  constructor(){}
 }

@@ -24,7 +24,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": []
           },
@@ -88,8 +89,9 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
-            ],
+            ],        
             "scripts": []
           }
         },
@@ -119,6 +121,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "AngularChartjs"
+    }
+  },
+  "defaultProject": "AngularChartjs",
+  "cli": {
+    "analytics": "d0ec51e9-441e-461d-b142-851a0d253a97"
+  }
 }
